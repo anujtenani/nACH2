@@ -1,5 +1,5 @@
 var chai     = require('chai')
-  , _        = require('lodash')
+  , _        = require('../lib/lodash')
   , expect   = chai.expect
   , Entry  = require('../lib/entry')
   , EntryAddenda  = require('../lib/entry-addenda')

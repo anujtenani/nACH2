@@ -33,7 +33,7 @@
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive"
   },
   "dependencies": {
-    "async": "^2.0.1",
+    "async": "^3.2.6",
     "dayjs": "^1.11.13",
     "lodash.clonedeep": "^4.5.0",
     "lodash.defaults": "^4.2.0",
@@ -43,7 +43,8 @@
     "lodash.isnull": "^3.0.0",
     "lodash.isundefined": "^3.0.1",
     "lodash.map": "^4.6.0",
-    "lodash.merge": "^4.6.2"
+    "lodash.merge": "^4.6.2",
+    "lodash.size": "^4.2.0"
   },
   "devDependencies": {
     "chai": "4.5.0",
