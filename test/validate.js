@@ -1,5 +1,5 @@
 var chai     = require('chai')
-  , _        = require('lodash')
+  , _        = require('../lib/lodash')
   , expect   = chai.expect
   , validate = require('../lib/validate');
 
@@ -158,7 +158,7 @@ describe('Validate', function(){
             });
         });
     });
-    
+
     describe('Service Class Codes', function(){
         it('must be valid ACH codes', function(){
             var validServiceClassCodes   = ['200','220','225']
